@@ -1,0 +1,60 @@
+.button-container {
+  text-align: center;
+  border: none;
+}
+button {
+  border-radius: 20px;
+  background-color: #F5CF5F;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #74756E;
+  border-radius: 10px;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: #009CF5;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #74756E;
+  border-radius: 10px;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+h1 {
+  color: burlywood;
+}
+
+h1, h3 {
+  font-family: 'Itim', cursive;
+  display: flex;
+  justify-content: center;
+}
